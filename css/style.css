@@ -313,6 +313,13 @@
 					border-radius: 100%;
 					text-align: center;
 				}
+			ul.icons img {
+				width: 5em;
+				height: 5em;
+				line-height: 5em;
+				border-radius: 100%;
+				text-align: center;
+			}
 
 	ul.actions {
 		cursor: default;
@@ -583,7 +590,9 @@
 		#footer .major .byline {
 			color: #FFF !important;
 		}
-
+		#footer .major a {
+			color: #FFF !important;
+		}
 /* Page */
 
 	#page {
