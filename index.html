@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Phase Shift by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html>
 	<head>
 		<title>VC金服</title>
@@ -54,7 +49,7 @@
 							应市场迫切需求，我们于2018年起加入行动支付领域，提供企业稳定的在线扫码代收付款服务。
 							随着数字货币发展成熟，VC金服于2020年正式运营线上的资金流转/兑换系统，提供更为方便且安全的出入款服务。
 							平台已入驻百位银行卡资源供应方，总保证金超过千万，平均日流水均在千万量级，欢迎您的加入。</p>
-							<a href="#main" class="button medium">Join Us</a>
+							<a href="#main" id="test" class="button medium">Join Us</a>
 						</section>
 					</div>
 				<br id="sevice">
@@ -133,7 +128,7 @@
 				<section>
 					<header class="major">
 						<h2>联系我们</h2>
-						<span class="byline">您可以通过【电报: <a href="https://t.me/vcotc">@VCOTC</a>】联系我们</span>
+						<span  class="byline">您可以通过【电报: <a id="aaaaa" href="https://t.me/vcotc">@VCOTC</a>】联系我们</span>
 					</header>
 					<ul class="icons">
 						<a href="https://t.me/vcotc"><img src="images/telegram.png"></a>
@@ -150,5 +145,17 @@
 				</div>
 			</div>
 		</div>
+	<!-- javascript-->
+		<script>
+			$("#test").click(function()
+			{
+				$("#aaaaa").attr("color", "red");
+				$("#aaaaa").html("sssss");
+				console.log($("#aaaaa"));
+				// alert("hiiiiii")
+			}
+			);
+		</script>
+
 	</body>
 </html>
